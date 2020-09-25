@@ -1,11 +1,48 @@
 body {
-    background-color: rgba(10, 184, 30, 0.2)
+    background-color: rgb(249, 249, 249);
+    font-family: arial, sans-serif;
 }
 
 .top-nav-bar{
     display:flex;
     justify-content: center;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 5px;
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+a:link{
+    color: #696969;
+}
+
+a:visited{
+    color: #696969;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: #696969;
+} 
 
 .top-nav-bar-list{
     display: flex;
@@ -47,10 +84,46 @@ body {
     text-align: center;
 }
 
+.sub-heading-container{
+    text-align: left;
+}
+
 .main-content-container{ 
     width: auto;
     height:auto;
     display: inline-flex;
+}
+
+.specifications-main-content-container{
+    width: auto;
+    height:auto;
+    display: inline-flex;
+}
+
+.specifications-main-content-center{
+    text-align: left;
+    margin:auto;
+    max-width: 33%;
+}
+
+.specifications-main-content-left{
+    text-align: left;
+    margin:auto;
+    margin-top: 88px;
+    width: 30%;
+}
+
+.specifications-main-content-right{
+    text-align: left;
+    margin:auto;
+    margin-top: 88px;
+    width: 30%;
+}
+
+.specifications-main-content-center img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;;
 }
 
 .main-content-container img { 
@@ -88,7 +161,7 @@ body {
 }
 
 .main-sub-content{
-    font-size: large;
+    font-size: 22px
 }
 
 .photography-page-main-content-container{
@@ -125,31 +198,18 @@ body {
     width: 100%;
 }
 
+.specifications-information-table{
+    text-align: left;
+    margin: auto;
+    font-size: 24px;
+    width: 100%;
+}
+
 .contact-information-table{
     text-align: left;
     margin: auto;
+    margin-top: 22px;
     font-size: 24px;
+    width: auto;
 }
-
-.contact-information-table th, td{
-    padding: 5px;
-}
-
-.specifications-table{
-    text-align: left;
-    margin: auto;
-    font-size: 24px;
-}
-
-.specifications-table th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 5px;
-
-}
-
-/* tr:nth-child(even) {
-    background-color: #dddddd;
-} */
-
 
